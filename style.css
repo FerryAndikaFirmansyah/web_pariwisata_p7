@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.nav{
+    color:white;
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #222;
+    position:fixed ;
+    width: 100%;
+    z-index: 1;
+}
+.nav a{
+    color:whitesmoke;
+}
+
+.nav li{
+    padding: 5px;
+}
+
+.nav li:hover{
+    background-color: blue;
+}
+
+
+
+.data-list{
+
+    margin-left: 40%;
+}
+
+.data-list li{
+display: inline-block;
+margin-left: 20px;
+}
+
+.fa-angle-down{
+    transform: rotate(0deg);
+    transition: 300ms;
+}
+.wisata:hover .fa-angle-down{
+    transform: rotate(-180deg);
+}
+
+.logo{
+    margin-left: 30px;
+}
+
+.list{
+    display: none;
+    background-color: #333;
+    position: absolute;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+
+}
+
+.list li{
+    display:block;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.data-list a{
+text-decoration: none;
+}
+
+.wisata:hover .list{
+
+display: block;
+}
+
+
+/* header===============================*/
+.header{
+    display:flex;
+    margin-bottom: 100px;
+}
+
+.des-header{
+    width: 45%;
+    margin:auto;
+}
+
+.des-header h1{
+    font-weight: 800;
+    font-size: 3rem;
+    width:50%;
+    color: blue;
+}
+
+.des-header p{
+    padding-bottom: 50px;
+    text-decoration: wavy;
+}
+
+.gambar{
+    width: 40%;
+    height:100vh;
+}
+
+.gambar img{
+    width: 90%;
+    height:100%;
+}
+
+.sosmed{
+
+    position: fixed;
+    margin-top: 40vh;
+    margin-left: 30px;
+}
+.sosmed li{
+    list-style: none;
+}
+.sosmed .fa-google:hover{
+    color:rgb(235, 64, 52);
+}
+.sosmed .fa-whatsapp:hover{
+    color:green;
+}
+.sosmed .fa-facebook:hover{
+    color:aqua;
+}
+.sosmed .fa-instagram:hover{
+    color:violet;
+}
+
+.sosmed .fa-brands{
+    font-size: 30px;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+/* footer================================== */
+.bg-footer{
+    height: 20vh;
+    background-color: #222;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 15vh;
+}
